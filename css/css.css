@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d4d8db;
+  color: #333;
+  margin: 0; /* Add margin to the body to remove default spacing */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+}
+
+.left-column {
+  width: 50%;
+  padding-right: 30px;
+  
+ 
+}
+
+.right-column {
+  width: 50%;
+  padding-left: 20px;
+  border-left: 5px solid #10196e; /* Corrected the border color */
+}
+
+h1 {
+  margin-bottom: 10px;
+  border-bottom: 5px solid #0d1d75;
+  padding-bottom: 10px;
+}
+
+.marco {
+  border: 3px solid rgb(7, 7, 7);
+ 
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-label {
+  font-weight: bold;
+}
+
+.progress-container progress {
+  width: 100%;
+  height: 15px;
+}
+
+.linea {
+  margin-top: 30px;
+  border-top: 3px solid #3614b1;
+
+}
+
+p.email {
+  color: blue;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aqua;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+.container-boton {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  transition: ease 0.3s;
+  background-color: rgb(41, 95, 16); 
+  cursor: pointer;
+  animation: efecto 1.3s infinite;
+}
+
+.boton {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 5px;
+}
+
+@keyframes efecto {
+  0% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85); }
+  100% { box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.85); }
+}
+
+.main {
+  background-color: rgb(186, 210, 224);
+  height: auto;
+  width: 800px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 60%;
+}
+.left{
+  
+}
+
